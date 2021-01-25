@@ -25,7 +25,6 @@ class Input {
         return input;
     }
     static #getValue(option) {
-        console.log(option.getAttribute('value'), option.textContent);
         const value = option.getAttribute('value');
         if (value) { return value; }
         if (option.textContent) { return option.textContent; }
